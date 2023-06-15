@@ -81,7 +81,7 @@ function App() {
       <p>Limit number is from 1 to 100. Example for input: A2 B1 B2 A4</p>
       <input onChange={(e) => handleValueInput(e.target.value)} />
       <button onClick={showResult}>Click to show result</button>
-      <p>{timeCounted}</p>
+      <p>Output is: {timeCounted}</p>
     </div>
   );
 }
